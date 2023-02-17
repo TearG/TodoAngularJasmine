@@ -13,6 +13,7 @@ export class TodoService {
   getTodos() {
     return this.http.get<Todo[]>('${this.API}')
   }
+  
 }
 
 

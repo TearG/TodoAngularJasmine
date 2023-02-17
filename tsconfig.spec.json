@@ -14,6 +14,9 @@
   ],
   "include": [
     "./src/**/*.spec.ts",
+    "./src/app/todo/**/*.spec.ts",
+    "./src/app/todo/**/*.d.ts",
+    "./src/app/todo/**/*.ts",
     "./src/**/*.d.ts",
     "./src/**/*.d.ts",
     "./src/**/*.ts"

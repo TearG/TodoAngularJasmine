@@ -10,9 +10,11 @@
     "./src/polyfills.ts"
   ],
   "include": [
-    "./src/**/*.d.ts",
     "./src/**/*.spec.ts",
-    "./src/**/*.d.ts",
+    "./src/app/todo/**/*.spec.ts",
+    "./src/app/todo/**/*.d.ts",
+    "./src/app/todo/**/*.ts",
+    "./src/*.spec.ts",
     "./src/**/*.d.ts",
     "./src/**/*.ts"
   ]
